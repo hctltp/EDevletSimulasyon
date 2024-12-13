@@ -1,0 +1,6 @@
+@FakeEDevletAPI_HostAddress = http://localhost:5293
+
+GET {{FakeEDevletAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

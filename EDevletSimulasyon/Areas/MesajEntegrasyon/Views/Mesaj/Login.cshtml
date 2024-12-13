@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+<script src="~/Scripts/jquery-3.7.0.min.js"></script>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #f4f4f9;
+    }
+
+    h1 {
+        color: #333;
+    }
+
+    button {
+        background-color: #0078d7;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+        button:hover {
+            background-color: #005a9e;
+        }
+</style>
+
+
+<h1>E-Devlet ile Giriş</h1>
+<button id="loginButton">E-Devlet ile Giriş Yap</button>
+
+<div id="result" style="margin-top: 20px;"></div>
+
+<script>
+        $(document).ready(function () {
+            $('#loginButton').on('click', function () {
+                window.location.href = '@Url.Action("AuthorizeFromFakeEDevletAPI", "Mesaj")';
+            });
+        });
+</script>
+

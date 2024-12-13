@@ -5,6 +5,10 @@ VisualStudioVersion = 17.11.35431.28
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDevletSimulasyon", "EDevletSimulasyon\EDevletSimulasyon.csproj", "{C054F99E-DA3D-4FDD-BF6E-BDBBCC34F768}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeEDevletAPI", "FakeEDevletAPI\FakeEDevletAPI.csproj", "{889082F5-F688-45D2-89E4-FAA080650CD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary", "CommonLibrary\CommonLibrary.csproj", "{3098964E-21E0-4EB9-B5DA-B1571263B852}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C054F99E-DA3D-4FDD-BF6E-BDBBCC34F768}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C054F99E-DA3D-4FDD-BF6E-BDBBCC34F768}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C054F99E-DA3D-4FDD-BF6E-BDBBCC34F768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889082F5-F688-45D2-89E4-FAA080650CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889082F5-F688-45D2-89E4-FAA080650CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889082F5-F688-45D2-89E4-FAA080650CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889082F5-F688-45D2-89E4-FAA080650CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3098964E-21E0-4EB9-B5DA-B1571263B852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3098964E-21E0-4EB9-B5DA-B1571263B852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3098964E-21E0-4EB9-B5DA-B1571263B852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3098964E-21E0-4EB9-B5DA-B1571263B852}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
